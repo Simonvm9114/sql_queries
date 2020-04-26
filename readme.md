@@ -29,3 +29,11 @@ Review the documentation to get a better understanding of how to implement these
 Convert a **sql_query** (sub)object to a string using the build-in str() function to get your 
 SQL query as text. The result can be used directly in for example pandas' *pd.read_sql_query()*
 or sqlalchemy's *engine.execute(text())* methods.
+
+### Known limitations for this version:
+* Exceptions haven't yet been properly implemented.
+* The .join method can only be used in combination with loading plain field (e.g. using COUNT(FieldX) in the SELECT statement will result in an invalid query)
+* The module has only been properly tested with a SQLite3 database.
+
+### Tutorial video's
+A series of one minute demo's to get started with this module can be found on [youtube](https://www.youtube.com/playlist?list=PLI4WFrsrAg8sCeBj5xdJ6n79_3Yq3Sz23).
