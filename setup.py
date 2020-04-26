@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="sql_query",
+    name="sql_queries",
     version="0.1.0",
     author="Simon van Meegdenburg",
     author_email="simonvm@live.nl",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="",
     projectURLs={
-        "Source code": "https://github.com/Simonvm9114/sql_query",
+        "Source code": "https://github.com/Simonvm9114/sql_queries",
         "Youtube": "https://www.youtube.com/playlist?list=PLI4WFrsrAg8sCeBj5xdJ6n79_3Yq3Sz23"
     }
     packages=setuptools.find_packages(),
