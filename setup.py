@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sql_queries",
-    version="0.1.0",
+    version="0.1.1",
     author="Simon van Meegdenburg",
     author_email="simonvm@live.nl",
     description="Build simple SQL queries fast and clean",
@@ -16,7 +16,7 @@ setuptools.setup(
     projectURLs={
         "Source code": "https://github.com/Simonvm9114/sql_queries",
         "Youtube": "https://www.youtube.com/playlist?list=PLI4WFrsrAg8sCeBj5xdJ6n79_3Yq3Sz23"
-    }
+    },
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

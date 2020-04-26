@@ -1,5 +1,5 @@
 Are you finding yourself writing long strings to build up a SQL query in python
-to communicate with your SQL database? Then **sql_query** is what you are looking for.
+to communicate with your SQL database? Then **sql_queries** is what you are looking for.
 This package provides you with tools to build simple SQL queries from the ground up,
 without having to manually type out formatted spaghetti strings over and over again. 
 With this module, you'll no longer need codeblocks like this to write your queries :
@@ -13,7 +13,7 @@ query = 'SELECT {} FROM {} WHERE {} = {}'.format(field, table, field, cond)
 ```
 
 And this is only a simple example. 
-The **sql_query** equivalent of the above looks like this:
+The **sql_queries** equivalent of the above looks like this:
 
 ```python
 from sql_query import sql_select
