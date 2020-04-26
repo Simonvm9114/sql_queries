@@ -1,7 +1,7 @@
 Are you finding yourself writing long strings to build up a SQL query in python
 to communicate with your SQL database? Then **sql_query** is what you are looking for.
 This package provides you with tools to build simple SQL queries from the ground up,
-without having to type everything out over and over again. 
+without having to manually type out formatted spaghetti strings over and over again. 
 With this module, you'll no longer need codeblocks like this to write your queries :
 
 ```python
@@ -12,6 +12,7 @@ cond = 10
 query = 'SELECT {} FROM {} WHERE {} = {}'.format(field, table, field, cond)
 ```
 
+And this is only a simple example. 
 The **sql_query** equivalent of the above looks like this:
 
 ```python
@@ -25,6 +26,8 @@ A simple *SELECT-FROM-WHERE* example has been demonstrated above with the **sql_
 This object also supports *GROUP BY*, *HAVING*, *ORDER BY*, *LIMIT* and *JOIN* statements.
 There is also the **sql_update** object, which supports *UPDATE*, *SET* and *WHERE* statements.
 Review the documentation to get a better understanding of how to implement these statements.
+For a quick demo you can also view to one minute demo's to get you started with this module.
+These can be found on [youtube](https://www.youtube.com/playlist?list=PLI4WFrsrAg8sCeBj5xdJ6n79_3Yq3Sz23).
 
 Convert a **sql_query** (sub)object to a string using the build-in str() function to get your 
 SQL query as text. The result can be used directly in for example pandas' *pd.read_sql_query()*
